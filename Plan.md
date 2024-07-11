@@ -32,12 +32,18 @@
 - **Тестирование совместимости**:
   - производительность на разных моделях мобильных устройств;
   - совместимость с различными версиями операционных систем.
+## Автоматизированное тестирование
+* Авторизация в приложении ([ID 1-5]( https://docs.google.com/spreadsheets/d/1nEuB6iX630e3AYBJpSjpF4T3yLCHJtyoW2NSNzCxEUw/edit?gid=0#gid=0&range=2:15))
+* Функционал главной страницы приложения ([ID 6-12]( https://docs.google.com/spreadsheets/d/1nEuB6iX630e3AYBJpSjpF4T3yLCHJtyoW2NSNzCxEUw/edit?gid=0#gid=0&range=16:35))
+* Функционал просмотра и фильтрации списка новостей ([ID 13-14]( https://docs.google.com/spreadsheets/d/1nEuB6iX630e3AYBJpSjpF4T3yLCHJtyoW2NSNzCxEUw/edit?gid=0#gid=0&range=36:39), [16-17]( https://docs.google.com/spreadsheets/d/1nEuB6iX630e3AYBJpSjpF4T3yLCHJtyoW2NSNzCxEUw/edit?gid=0#gid=0&range=44:63), [19]( https://docs.google.com/spreadsheets/d/1nEuB6iX630e3AYBJpSjpF4T3yLCHJtyoW2NSNzCxEUw/edit?gid=0#gid=0&range=74:79))
+* Функционал создания, редактирования удаления новостей ([ID 20-24]( https://docs.google.com/spreadsheets/d/1nEuB6iX630e3AYBJpSjpF4T3yLCHJtyoW2NSNzCxEUw/edit?gid=0#gid=0&range=80:121), [26-27]( https://docs.google.com/spreadsheets/d/1nEuB6iX630e3AYBJpSjpF4T3yLCHJtyoW2NSNzCxEUw/edit?gid=0#gid=0&range=129:136), [29]( https://docs.google.com/spreadsheets/d/1nEuB6iX630e3AYBJpSjpF4T3yLCHJtyoW2NSNzCxEUw/edit?gid=0#gid=0&range=151:153))
+* Функционал раздела Цитаты ([ID 31]( https://docs.google.com/spreadsheets/d/1nEuB6iX630e3AYBJpSjpF4T3yLCHJtyoW2NSNzCxEUw/edit?gid=0#gid=0&range=156:157))
+* Функционал раздела О приложении ([ID 32]( https://docs.google.com/spreadsheets/d/1nEuB6iX630e3AYBJpSjpF4T3yLCHJtyoW2NSNzCxEUw/edit?gid=0#gid=0&range=158:160))
 ## Перечень используемых инструментов
-* **Android Studio**
-* **Espresso**
-* **IntelliJ IDEA**
-* **Git**
-* **Allure**
+* **Android Studio.** Интегрированная среда разработки для написания автоматизированных тестов.
+* **Espresso.** Фреймворк для тестирования.
+* **Git и GitHub.** Система контроля версий, для хранения автотестов и настройки окружения.
+* **Allure.** Фреймворк для создания простых и понятных отчётов автотестов.
 ## Окружение для тестирования
 * Компьютер: AMD Ryzen 5, Windows 10 Pro версия 22H2, ОЗУ 16,00 Гб.
 * Мобильное устройство: Honor 10 Lite, модель HRY-LX1, Android 10, версия EMUI 12.0.0, RAM 3,0 ГБ, процессор Hisilicon Kirin 710, разрешение 2340 х 1080, API 29.
